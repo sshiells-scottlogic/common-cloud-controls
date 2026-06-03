@@ -188,6 +188,7 @@ export default function AdvanceAutomatedGovernance() {
               href="https://www.youtube.com/watch?v=8hMRahzwK3k&list=PLmPXh6nBuhJuWoOHDqG4AMPVerlWYDacD"
               target="_blank"
               rel="noopener noreferrer"
+              style={{color: "#777c85"}}
             >
               YouTube playlist
             </a>.

@@ -1,0 +1,64 @@
+
+/* Get Involved: bullet list on mobile, 2x2 card grid on medium+ */
+.getInvolvedList {
+  list-style: disc;
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  text-align: left;
+}
+
+.getInvolvedLink {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.getInvolvedLabel {
+  display: inline;
+  font-weight: 600;
+}
+
+.getInvolvedDesc {
+  display: inline;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.getInvolvedDesc::before {
+  content: " — ";
+}
+
+@media (min-width: 600px) {
+  .getInvolvedList {
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .getInvolvedLink {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1.5rem;
+    background-color: #777c85;
+    border-radius: 1rem;
+    border: 1px solid #474a50;
+  }
+
+  .getInvolvedLabel {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .getInvolvedDesc {
+    display: block;
+  }
+
+  .getInvolvedDesc::before {
+    content: none;
+  }
+}
