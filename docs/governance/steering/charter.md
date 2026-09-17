@@ -27,7 +27,7 @@ Responsibilities not explicitly delegated to another group through its charter r
 
 ## Membership
 
-The TSC voting members are the Project's Maintainers. The current Maintainers — and therefore the current TSC voting members — are set forth in the [CONTRIBUTING file](/.github/CONTRIBUTING.md), and are also listed for reference in [contributors.md](contributors.md) and the project [README.md](/README.md).
+The TSC voting members are the Project's Maintainers. The current Maintainers — and therefore the current TSC voting members — are set forth in the [CONTRIBUTING file](/.github/CONTRIBUTING.md), and are also listed for reference in the project [README.md](/README.md).
 
 The project roles (Contributor and Maintainer) are defined in the [CONTRIBUTING file](/.github/CONTRIBUTING.md). The TSC may adopt or modify roles, or choose an alternative approach for determining its voting members, provided any such change is documented in the CONTRIBUTING file.
 

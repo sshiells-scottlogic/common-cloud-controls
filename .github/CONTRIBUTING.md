@@ -4,22 +4,24 @@ This document provides the contribution policy for specifications and other docu
 
 ## Project Roles and the Technical Steering Committee
 
-The Common Cloud Controls project operates under the [Technical Steering Committee (TSC) Charter](/docs/governance/steering/charter.md). This section documents the project roles and the current Maintainers, as required by that charter.
+The Common Cloud Controls project operates under the [Technical Steering Committee (TSC) Charter](/docs/governance/steering/charter.md). This section documents the project roles and the current Maintainers, as required by that charter. Everyone is welcome to contribute through discussion, issues, and pull requests.
 
-### Roles
+The TSC may adopt or modify roles, so long as the roles are documented in this file. Unless otherwise documented, the base roles are **Contributor** and **Maintainer**.
 
-Unless otherwise documented:
+| Role        | Responsibilities                                                                        | Requirements                                                           | Defined by                                                           |
+| ----------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| Contributor | Contribute code, documentation, or other technical artifacts to the project             | Open to anyone                                                        | Community participation                                              |
+| Member      | Active contributor in the community, assist on community calls, give input on proposals | Sponsored by 2 maintainers after multiple contributions to the project | GitHub FINOS `ccc-members` Group Member                              |
+| Maintainer  | Review and merge contributions, and help maintain project assets and tooling            | Promoted from Contributor by a majority approval of the TSC           | [CODEOWNERS] entry for specific files or directories                 |
+| WG Lead     | Set direction and priorities for a working group (WG)                                   | Demonstrated responsibility and excellent technical judgement          | [CODEOWNERS] entry for all files or directories relating to the [WG] |
 
-- **Contributor** — anyone in the technical community who contributes code, documentation, or other technical artifacts to the project.
-- **Maintainer** — a Contributor who has earned the ability to commit (merge) changes to the project's repositories. A Contributor may become a Maintainer by a **majority approval of the TSC**, and a Maintainer may be removed by a **majority approval of the TSC**.
-
-The TSC may adopt or modify roles, so long as the roles are documented in this file. Additional project roles (for example Working Group Leads) are described in [member-roles.md](/docs/governance/member-roles.md).
+Anyone attending a CCC meeting, event, or contributing in any way is expected to follow the [Linux Foundation Code of Conduct]. Established community members of **all roles** are expected to demonstrate technical and/or writing ability in their contributions, adherence to the principles of the project, and familiarity with project organization (roles, policies, procedures, conventions, etc).
 
 ### Technical Steering Committee
 
-The TSC voting members are the Project's Maintainers listed below. TSC meetings are open to the public and may be conducted electronically, by teleconference, or in person. The TSC may choose an alternative approach for determining its voting members; any such approach will be documented in this file.
+The TSC voting members are the Project's Maintainers, listed under [Current Maintainers](#current-maintainers). TSC meetings are open to the public and may be conducted electronically, by teleconference, or in person. The TSC may choose an alternative approach for determining its voting members; any such approach will be documented in this file.
 
-### Maintainers
+### Current Maintainers
 
 The current Maintainers of the project — and therefore the current TSC voting members — are:
 
@@ -35,6 +37,89 @@ The current Maintainers of the project — and therefore the current TSC voting 
 - Ernani Cecon
 - Maxime Coquerel
 - Sankara Ramakrishnan
+
+The current FINOS point of contact for the project is @robmoffat (see [finos-poc.md](/docs/governance/finos-poc.md)).
+
+### Contributor
+
+A Contributor is anyone in the technical community who contributes code, documentation, or other technical artifacts to the project. Contributing is open to anyone who abides by the project's policies and the [Linux Foundation Code of Conduct]; no prior appointment is required. New contributors should be welcomed to the community, helped with the pull request (PR) workflow, and directed to relevant documentation and communication channels.
+
+**Definition of contributions.** Contributions are meaningful engagements that advance the goals of the community. These include, but are not limited to:
+
+- Submission of impactful pull requests that are subsequently merged into the project's repositories.
+- Additive participation in discussions on issues, pull requests, or community forums like mailing lists, Slack channels, or meetings.
+- Contribution to design proposals or reviews.
+- Assistance given in community management and organization, such as event planning or managing community tools and resources.
+
+### Member
+
+Members are continuously active contributors within the community. They can have issues or PRs assigned to them and assist or scribe on community calls.
+
+**Defined by:** GitHub FINOS `ccc-members` Group Member.
+
+**Eligibility requirements:**
+
+- Enabled two-factor authentication on their GitHub account.
+- Actively contributing to 1 or more [WG] in the past three (3) months.
+- Have made **multiple contributions** to the project or community, enough to demonstrate an **ongoing and long-term commitment** to the project.
+- Subscribed to the [community mail group].
+- Applied, sponsored, and approved for member status:
+  1. Open a pull request against the CCC repo [`participants.yaml`](/participants.yaml). The PR description should contain a list or summary of your work on the project to date.
+  1. Sponsoring maintainers mark the PR as ready to merge. The prospective member must be sponsored by 2 maintainers from 2 employers who have close project interactions with them (such as in PR review, proposal creation, coordinating on issues, etc.).
+  1. Once your sponsors have approved, your request will be merged by the appropriate party within 14 days.
+
+**Responsibilities and privileges:**
+
+- Responsive to issues and PRs assigned to them.
+- Participate actively in at least one [WG].
+- Scribe on community calls when necessary.
+- Can be invited to review and advise on PR approvals.
+- Participation publicly documented in [`participants.yaml`](/participants.yaml).
+
+### Maintainer
+
+Maintainers are Contributors who have earned the ability to commit (merge) changes to the project's repositories. In addition to reviewing pull requests, they help maintain the project's community assets and tooling within their scope. Maintainers are the voting members of the TSC.
+
+Approval of a contribution is focused on holistic acceptance, including backwards / forwards compatibility, adhering to all conventions, subtle performance and correctness issues, interactions with other parts of the system, and so forth.
+
+**Defined by:** [CODEOWNERS] entry or GitHub Team for a specific scope.
+
+**Becoming a Maintainer.** A Contributor becomes a Maintainer by a **majority approval of the TSC**. Once approved, the Maintainer is added to the [CODEOWNERS] file (or the appropriate GitHub Team) for their scope and becomes a voting member of the TSC. A Maintainer may be removed by a **majority approval of the TSC**, following the process in the [TSC Charter](/docs/governance/steering/charter.md#no-confidence).
+
+**Responsibilities and privileges:**
+
+- Provide thorough and practical reviews of contributions from other members.
+- May approve and merge PRs from other members, or block PRs with requests for changes.
+- Help maintain the project's community assets — repositories, documentation, and related resources — within their scope.
+- Maintain project tooling and build/test infrastructure within their scope.
+- Ensure contributions meet the project's conventions and quality standards.
+
+### WG Lead
+
+WG Leads set direction and priorities for a working group, demonstrating responsibility and excellent technical judgement for the subproject.
+
+**Defined by:** [CODEOWNERS] entry for all files or directories relating to the [WG] **and** GitHub Team for the respective working group.
+
+**Requirements:**
+
+- Demonstrated responsibility and excellent technical judgement for the [WG] topic as a _Maintainer_ for at least three (3) months.
+- Appointed by a TSC vote. A TSC member must create a PR to update [`participants.yaml`](/participants.yaml) with the new appointment. Extending [CODEOWNERS] scope for an individual must follow the Maintainer promotion process. When appointment is confirmed, work with a repo admin to add the appointee to the appropriate GitHub team(s).
+- Adhere to relevant [community groups] guidelines, such as following the corresponding [WG] Charter, ensuring the proper execution of [WG] meetings, and representing the [WG] in relevant accountability meetings (or delegating an eligible representative).
+
+**Responsibilities and privileges:**
+
+- Set direction and priorities for a WG, ensuring consistent progress, and feed into project [roadmap] planning.
+- Review and approve pull requests within the WG's scope.
+- Own the WG's contribution to releases and the release process.
+- Steward the WG's community assets and tooling.
+- Present the [WG] status and progress to the rest of the community.
+- Adhere to the general responsibilities of a _Maintainer_.
+
+### Inactive Members
+
+A core principle in maintaining a healthy community is encouraging active participation. It is inevitable that people's focuses will change over time, and they are not expected to be actively contributing forever.
+
+Inactive members are those who carry a role or title within CCC with **zero** qualifying contributions in the preceding 6 months. Inactive members will be removed from their roles and will need to re-engage with the community and go through the processes above again to regain their status. Specific group charters may specify a shorter period for their roles.
 
 ## 1. Contribution Guidelines.
 
@@ -117,3 +202,10 @@ o A pull request should stay open until a Maintainer has marked the pull request
 o Pull requests can be closed by the author without merging.
 
 o Pull requests may be closed by a Maintainer if the decision is made that it is not going to be merged.
+
+[Linux Foundation Code of Conduct]: https://events.linuxfoundation.org/about/code-of-conduct/
+[CODEOWNERS]: /.github/CODEOWNERS
+[community mail group]: mailto:ccc-participants+subscribe@finos.org
+[community groups]: /docs/governance/community-structure.md
+[roadmap]: /docs/governance/steering/charter.md#roadmap-planning
+[WG]: /docs/governance/community-structure.md#working-groups
