@@ -73,21 +73,24 @@ Participants of FINOS standards projects should follow the FINOS Code of Conduct
 
 ## Governance
 
-### FINOS CCC Steering Committee
+### FINOS CCC Technical Steering Committee (TSC)
 
-The CCC Steering Committee is the governing body of the CCC project, providing decision-making and oversight pertaining to the CCC project bylaws, sub-organizations, and financial planning. The Steering Committee also defines the project values and structure. [Documented here](docs/governance/steering/charter.md).
+The CCC Technical Steering Committee (TSC) is the governing body of the CCC project, providing technical oversight and strategic direction, and defining the project values and structure. [Documented here](docs/governance/steering/charter.md).
 
-Each organizational seat has a **Primary** (Cloud Lead) and **Alternate** (Cyber Security Lead) representative; the Alternate participates when the Primary is unavailable.
+TSC members hold their seats as named individuals, on their own merit — not as representatives of any employer or sponsor. The current members are:
 
-| Representing   | Cloud Lead (Primary) | Cyber Security Lead (Alternate) |
-|----------------|----------------------|---------------------------------|
-| Citi           | Alsaloom, Mohamed    | Michael Lysaght                 |
-| LSEG           | Dean Bryen           | Leroy Abhikui                   |
-| Morgan Stanley | Dave Reeve           | -                               |
-| ScottLogic     | Stevie Shiells       | Sonali Mendis                   |
-| Red Hat        | Aric Rosenbaum       | Jenn Power                      |
-| RBC            | Ernani Cecon         | Maxime Coquerel                 |
-| BlackRock      | -                    | Sankara Ramakrishnan            |
+- Mohamed Alsaloom
+- Michael Lysaght
+- Dean Bryen
+- Leroy Abhikui
+- Dave Reeve
+- Stevie Shiells
+- Sonali Mendis
+- Aric Rosenbaum
+- Jenn Power
+- Ernani Cecon
+- Maxime Coquerel
+- Sankara Ramakrishnan
 
 @robmoffat is the current [FINOS Point of Contact](docs/governance/finos-poc.md) for the CCC project.
 

@@ -4,11 +4,11 @@ Everyone is welcome to contribute through discussion, issues, and pull requests.
 
 The following are roles and additional responsibilities that a person may recieve in the community.
 
-| Role     | Responsibilities                                                                        | Requirements                                                                     | Defined by                                                           |
-| -------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| Member   | Active contributor in the community, assist on community calls, give input on proposals | Sponsored by 2 reviewers after multiple contributions to the project             | GitHub FINOS `ccc-members` Group Member                              |
-| Approver | Review contributions from other members                                                 | History of quality reviews and authorship in a particular space                  | [CODEOWNERS] entry for specific files or directories                 |
-| WG Lead  | Set direction and priorities for a working group (WG)                                   | Demonstrated responsibility and excellent technical judgement for the subproject | [CODEOWNERS] entry for all files or directories relating to the [WG] |
+| Role       | Responsibilities                                                                        | Requirements                                                                     | Defined by                                                           |
+| ---------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| Member     | Active contributor in the community, assist on community calls, give input on proposals | Sponsored by 2 maintainers after multiple contributions to the project           | GitHub FINOS `ccc-members` Group Member                              |
+| Maintainer | Review and merge contributions, and help maintain project assets and tooling            | History of quality reviews and authorship in a particular space                  | [CODEOWNERS] entry for specific files or directories                 |
+| WG Lead    | Set direction and priorities for a working group (WG)                                   | Demonstrated responsibility and excellent technical judgement for the subproject | [CODEOWNERS] entry for all files or directories relating to the [WG] |
 
 ## All New & Established Contributors
 
@@ -39,8 +39,8 @@ assigned to them and assist or scribe on community calls.
 - Applied, sponsored, and approved for member status.
   1. Open an pull request against the CCC repo [`participants.yaml`](/participants.yaml):
   - The PR description should contain a list or summary of your work on the project to date.
-  1. Sponsoring reviewers mark the PR as ready to merge:
-  - Must be sponsored by 2 approvers from 2 employers.
+  1. Sponsoring maintainers mark the PR as ready to merge:
+  - Must be sponsored by 2 maintainers from 2 employers.
   - Sponsors must have close project interactions with the prospective member
     (such as in PR review, proposal creation, coordinating on issues, etc.)
   1. Once your sponsors have approved, your request will be merged by the appropriate party within 14 days.
@@ -67,12 +67,13 @@ These include, but are not limited to:
 - Can be invited to review and advise on PR approvals.
 - Participation publicly documented in [`participants.yaml`](/participants.yaml).
 
-## Approver
+## Maintainer
 
-Approvers review contributions from members and have a history of quality reviews
-and authorship in a specific domain.
+Maintainers review contributions from members and have a history of quality reviews
+and authorship in a specific domain. In addition to reviewing pull requests, they help
+maintain the project's community assets and tooling within their scope.
 
-Approvers are able to block or approve code contributions. Approval is focused on
+Maintainers are able to block or approve code contributions. Approval is focused on
 holistic acceptance of a contribution including: backwards / forwards
 compatibility, adhering to all conventions, subtle performance and
 correctness issues, interactions with other parts of the system, and so forth.
@@ -86,17 +87,19 @@ correctness issues, interactions with other parts of the system, and so forth.
 - Appointed by a [WG] Lead.
   - Appointer may create a PR to add appointee to the [CODEOWNERS] file **OR** an issue requesting the appointee's addition to a GitHub Team for the appropriate scope.
     - The PR/issue must remain open for seven (7) days to gather feedback, or until
-      all active approvers have responded, whichever is first.
-    - Any current approver may request changes or reject the appointment.
+      all active maintainers have responded, whichever is first.
+    - Any current maintainer may request changes or reject the appointment.
       - Objections may be made for any reason, with or without public explanation.
-      - Objection appeals to the Steering Committee may be made by the appointer.
-    - **Note:** Adjustments to an approver's scope must follow this same process.
+      - Objection appeals to the Technical Steering Committee (TSC) may be made by the appointer.
+    - **Note:** Adjustments to a maintainer's scope must follow this same process.
 
 ### Responsibilities and Privileges
 
 - Provide thorough and practical reviews of contributions from other members.
-- Ensure contributions meet the project's conventions and quality standards.
 - May approve and merge PRs from other members, or block PRs with requests for changes.
+- Help maintain the project's community assets — repositories, documentation, and related resources — within their scope.
+- Maintain project tooling and build/test infrastructure within their scope.
+- Ensure contributions meet the project's conventions and quality standards.
 - Adhere to the general responsibilities of a member.
 
 ## WG Lead
@@ -108,11 +111,11 @@ and excellent technical judgement for the subproject.
 
 ### Requirements
 
-- Demonstrated responsibility and excellent technical judgement for the [WG] topic as an
-  _Approver_ for at least (3) months.
-- Appointed by a [SC] vote.
-  - A [SC] sponsor must create a PR to update [`participants.yaml`](/participants.yaml): with the new appointment.
-  - Extending [CODEOWNERS] scope for an individual must follow the approver nomination process.
+- Demonstrated responsibility and excellent technical judgement for the [WG] topic as a
+  _Maintainer_ for at least (3) months.
+- Appointed by a [TSC] vote.
+  - A [TSC] sponsor must create a PR to update [`participants.yaml`](/participants.yaml): with the new appointment.
+  - Extending [CODEOWNERS] scope for an individual must follow the maintainer nomination process.
   - When appointment is confirmed, the sponsor must work with a repo admin to add appointee to the appropriate GitHub team(s)
 - Adhere to relevant [community groups] guidelines, such as:
   - Follow the corresponding [WG] Charter
@@ -121,9 +124,12 @@ and excellent technical judgement for the subproject.
 
 ### Responsibilities and Privileges
 
-- Set direction and priorities for a WG, ensuring consistent progress.
+- Set direction and priorities for a WG, ensuring consistent progress, and feed into project [roadmap] planning.
+- Review and approve pull requests within the WG's scope.
+- Own the WG's contribution to releases and the release process.
+- Steward the WG's community assets and tooling.
 - Present the [WG] status and progress to the rest of the community.
-- Adhere to the general responsibilities of an _Approver_.
+- Adhere to the general responsibilities of a _Maintainer_.
 
 ## Inactive Members
 
@@ -145,5 +151,6 @@ Specific group charters may specify a shorter period for their roles.
 [CODEOWNERS]: /.github/CODEOWNERS
 [community mail group]: mailto:ccc-participants+subscribe@finos.org
 [community groups]: ../governance/community-structure.md
-[SC]: ../governance/community-structure.md#steering-committee
+[TSC]: ../governance/community-structure.md#steering-committee
+[roadmap]: ../governance/steering/charter.md#roadmap-planning
 [WG]: ../governance/community-structure.md#working-groups
