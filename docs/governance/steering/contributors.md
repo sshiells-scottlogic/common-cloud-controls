@@ -1,23 +1,8 @@
 # Common Cloud Controls Technical Steering Committee — Members
 
-This document lists the current members of the CCC Technical Steering Committee (TSC).
+The Technical Steering Committee (TSC) voting members are the Project's Maintainers.
 
-TSC members hold their seats as named individuals, on their own merit — not as representatives of any employer or sponsor. For how members are elected and how the committee operates, see the [TSC Charter](charter.md).
-
-## Current members
-
-- Mohamed Alsaloom
-- Michael Lysaght
-- Dean Bryen
-- Leroy Abhikui
-- Dave Reeve
-- Stevie Shiells
-- Sonali Mendis
-- Aric Rosenbaum
-- Jenn Power
-- Ernani Cecon
-- Maxime Coquerel
-- Sankara Ramakrishnan
+The authoritative list of Maintainers — and therefore the current TSC voting members — is maintained in the [CONTRIBUTING file](/.github/CONTRIBUTING.md), as required by the [TSC Charter](charter.md). It is also reproduced for reference in the project [README.md](/README.md).
 
 ## FINOS Point of Contact
 

@@ -27,21 +27,13 @@ Responsibilities not explicitly delegated to another group through its charter r
 
 ## Membership
 
-The TSC is made up of named individual members. Each member holds their seat as an individual, on their own merit — not as a representative of any employer or sponsor. There are no company-based, sponsored, or reserved seats.
+The TSC voting members are the Project's Maintainers. The current Maintainers — and therefore the current TSC voting members — are set forth in the [CONTRIBUTING file](/.github/CONTRIBUTING.md), and are also listed for reference in [contributors.md](contributors.md) and the project [README.md](/README.md).
 
-The current TSC members, and the assigned FINOS point of contact, are listed in [contributors.md](contributors.md) and in the project [README.md](/README.md).
+The project roles (Contributor and Maintainer) are defined in the [CONTRIBUTING file](/.github/CONTRIBUTING.md). The TSC may adopt or modify roles, or choose an alternative approach for determining its voting members, provided any such change is documented in the CONTRIBUTING file.
 
-### Elections
+### Becoming a Maintainer
 
-Every year, the TSC holds a general election for open seats. Our [election policy] document covers the details for how this works.
-
-### Vacancies
-
-In the event of a resignation or other loss of a committee member, the next most preferred candidate from the previous election will be offered the seat. A maximum of one (1) member may be selected this way between elections.
-
-In case this fails to fill the seat, a special election for that position will be held as soon as possible. [Eligible voters] from the most recent election will vote in the special election (eligibility will not be redetermined at the time of the special election).
-
-A member elected in a special election will serve out the remainder of the term for the person they are replacing, regardless of the length of that remainder.
+Maintainers are Contributors who have earned the ability to commit (merge) changes to the project's repositories. A Contributor becomes a Maintainer — and thereby a TSC voting member — by a **majority approval of the TSC**.
 
 ### Minimum participation
 
@@ -59,7 +51,7 @@ If a member chooses not to continue in their role, for whatever self-elected rea
 
 #### No confidence
 
-A TSC member may be removed by an affirmative vote of a **_three-quarters supermajority of the current members_**.
+A Maintainer may be removed — and thereby lose their TSC vote — by a **majority approval of the TSC**.
 
 The call for a vote of no confidence will happen in a public TSC meeting and must be documented as a GitHub issue in the repository. It must be made by a current member and seconded by another current member. The member who calls for the vote must include on the issue a statement providing context on the reason for the vote.
 
@@ -71,7 +63,7 @@ If the vote of no confidence is passed, the member in question is immediately re
 
 ### Members
 
-TSC members set project direction, vote on committee business, and hold the responsibilities defined throughout this charter.
+The TSC voting members are the Project's Maintainers (see [Membership](#membership)). They set project direction, vote on committee business, and hold the responsibilities defined throughout this charter.
 
 ### Chair and Vice Chair
 
@@ -90,7 +82,7 @@ Members self-nominate for Chair and Vice Chair. Where there is more than one nom
 
 #### Officer term
 
-Each Officer term runs for a maximum of two years, and is independent of the person's underlying TSC election term — a Chair or Vice Chair may be re-nominated for another Officer term while continuing to serve on the committee, subject to any consecutive-term limit the committee agrees.
+Each Officer term runs for a maximum of two years, and is independent of the person's underlying Maintainer status — a Chair or Vice Chair may be re-nominated for another Officer term while continuing to serve on the committee, subject to any consecutive-term limit the committee agrees.
 
 An Officer must remain a sitting committee member throughout their Officer term. If they leave the committee for any reason, their Officer term ends immediately and the vacancy process below applies.
 
@@ -135,11 +127,11 @@ The committee communicates the resulting high-level "north star" direction back 
 
 ## Meetings
 
-TSC members are generally expected to attend every meeting.
+TSC meetings are open to the public and may be conducted electronically, by teleconference, or in person. Members are generally expected to attend every meeting.
 
 ### Routine meetings
 
-The TSC meets on a regular cadence, set by the committee, to conduct routine business. These working meetings are private and invite-only: attendance is limited to committee members and any guests the committee invites. This keeps the committee's business focused and funnels wider engagement to the public [quarterly community call](#mission) and the community all-hands.
+The TSC meets on a regular cadence, set by the committee, to conduct routine business. In addition, the TSC holds a public community call no less than once per quarter to update stakeholders and funnel wider engagement — such as user engagement and cross-project coordination — alongside the community all-hands.
 
 ### Meeting conduct
 
@@ -147,7 +139,7 @@ Given that the committee's membership may include representatives of competing o
 
 ### Quorum
 
-A meeting may proceed with a **_majority of the current members_** present. Formal decisions are not taken in the meeting itself — they are made on decision-log pull requests as described under [Voting](#voting).
+Quorum requires at least half of the TSC voting members to be present. The committee may continue to meet if quorum is not met, but may not take decisions at that meeting. Formal decisions are, in any case, taken on decision-log pull requests as described under [Voting](#voting).
 
 ## Inclusive Leadership Training
 
@@ -159,7 +151,7 @@ Members may propose a change to this document through the following process:
 
 - Post a pull request to this repository describing the change.
 - Call a public vote for the nearest acceptable business day four (4) weeks after initial introduction of the change. A vote may be scheduled earlier if all members consent.
-- The change is accepted if three-quarters of the current members vote in favor.
+- The change is accepted if two-thirds of the TSC voting members vote in favor.
 - The pull request is merged or closed.
 
 ## Attribution
@@ -168,8 +160,6 @@ This document was adapted from the Kubernetes Steering Committee Charter [afb385
 
 ---
 
-[election policy]: elections.md
-[Eligible voters]: elections.md#eligibility-for-voting
 [Inclusive Open Source Community Orientation]: https://training.linuxfoundation.org/training/inclusive-open-source-community-orientation-lfc102/
 [afb3858]: https://github.com/kubernetes/steering/blob/afb3858/charter.md
 

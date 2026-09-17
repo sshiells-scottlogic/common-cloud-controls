@@ -4,11 +4,14 @@ Everyone is welcome to contribute through discussion, issues, and pull requests.
 
 The following are roles and additional responsibilities that a person may recieve in the community.
 
-| Role       | Responsibilities                                                                        | Requirements                                                                     | Defined by                                                           |
-| ---------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| Member     | Active contributor in the community, assist on community calls, give input on proposals | Sponsored by 2 maintainers after multiple contributions to the project           | GitHub FINOS `ccc-members` Group Member                              |
-| Maintainer | Review and merge contributions, and help maintain project assets and tooling            | History of quality reviews and authorship in a particular space                  | [CODEOWNERS] entry for specific files or directories                 |
-| WG Lead    | Set direction and priorities for a working group (WG)                                   | Demonstrated responsibility and excellent technical judgement for the subproject | [CODEOWNERS] entry for all files or directories relating to the [WG] |
+| Role        | Responsibilities                                                                        | Requirements                                                                     | Defined by                                                           |
+| ----------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| Contributor | Contribute code, documentation, or other technical artifacts to the project             | Open to anyone                                                                   | Community participation                                              |
+| Member      | Active contributor in the community, assist on community calls, give input on proposals | Sponsored by 2 maintainers after multiple contributions to the project           | GitHub FINOS `ccc-members` Group Member                              |
+| Maintainer  | Review and merge contributions, and help maintain project assets and tooling            | Promoted from Contributor by a majority approval of the [TSC]                    | [CODEOWNERS] entry for specific files or directories                 |
+| WG Lead     | Set direction and priorities for a working group (WG)                                   | Demonstrated responsibility and excellent technical judgement for the subproject | [CODEOWNERS] entry for all files or directories relating to the [WG] |
+
+The TSC voting members are the Project's Maintainers. Role definitions and the current list of Maintainers are documented in the [CONTRIBUTING file](/.github/CONTRIBUTING.md).
 
 ## All New & Established Contributors
 
@@ -21,6 +24,12 @@ Established community members of **all roles** are expected to demonstrate techn
 adherence to the principles of the project, and familiarity with project organization
 (roles, policies, procedures, conventions, etc). Role-specific expectations, responsibilities,
 and eligibility requirements are enumerated below.
+
+## Contributor
+
+A Contributor is anyone in the technical community who contributes code, documentation, or other
+technical artifacts to the project. Contributing is open to anyone who abides by the project's
+policies and [Code of Conduct](#all-new--established-contributors); no prior appointment is required.
 
 ## Member
 
@@ -80,18 +89,19 @@ correctness issues, interactions with other parts of the system, and so forth.
 
 **Defined by:** [CODEOWNERS] entry or GitHub Team for a specific scope.
 
+Maintainers are the voting members of the [Technical Steering Committee (TSC)][TSC].
+
 ### Requirements
 
-- Active _Member_ of the project for at least 3 months.
 - History of quality reviews and contributions within a specific scope.
-- Appointed by a [WG] Lead.
-  - Appointer may create a PR to add appointee to the [CODEOWNERS] file **OR** an issue requesting the appointee's addition to a GitHub Team for the appropriate scope.
-    - The PR/issue must remain open for seven (7) days to gather feedback, or until
-      all active maintainers have responded, whichever is first.
-    - Any current maintainer may request changes or reject the appointment.
-      - Objections may be made for any reason, with or without public explanation.
-      - Objection appeals to the Technical Steering Committee (TSC) may be made by the appointer.
-    - **Note:** Adjustments to a maintainer's scope must follow this same process.
+- Demonstrated ability to commit (merge) changes responsibly within that scope.
+
+A Contributor becomes a Maintainer by a **majority approval of the [TSC]**. Once approved, the
+Maintainer is added to the [CODEOWNERS] file (or the appropriate GitHub Team) for their scope and
+becomes a voting member of the TSC.
+
+A Maintainer may be removed by a **majority approval of the [TSC]**, following the process in the
+[TSC Charter](steering/charter.md#no-confidence).
 
 ### Responsibilities and Privileges
 

@@ -2,6 +2,40 @@
 
 This document provides the contribution policy for specifications and other documents developed using the Community Specification process in a repository (each a “Working Group”). Additional or alternate contribution policies may be adopted and documented by the Working Group.
 
+## Project Roles and the Technical Steering Committee
+
+The Common Cloud Controls project operates under the [Technical Steering Committee (TSC) Charter](/docs/governance/steering/charter.md). This section documents the project roles and the current Maintainers, as required by that charter.
+
+### Roles
+
+Unless otherwise documented:
+
+- **Contributor** — anyone in the technical community who contributes code, documentation, or other technical artifacts to the project.
+- **Maintainer** — a Contributor who has earned the ability to commit (merge) changes to the project's repositories. A Contributor may become a Maintainer by a **majority approval of the TSC**, and a Maintainer may be removed by a **majority approval of the TSC**.
+
+The TSC may adopt or modify roles, so long as the roles are documented in this file. Additional project roles (for example Working Group Leads) are described in [member-roles.md](/docs/governance/member-roles.md).
+
+### Technical Steering Committee
+
+The TSC voting members are the Project's Maintainers listed below. TSC meetings are open to the public and may be conducted electronically, by teleconference, or in person. The TSC may choose an alternative approach for determining its voting members; any such approach will be documented in this file.
+
+### Maintainers
+
+The current Maintainers of the project — and therefore the current TSC voting members — are:
+
+- Mohamed Alsaloom
+- Michael Lysaght
+- Dean Bryen
+- Leroy Abhikui
+- Dave Reeve
+- Stevie Shiells
+- Sonali Mendis
+- Aric Rosenbaum
+- Jenn Power
+- Ernani Cecon
+- Maxime Coquerel
+- Sankara Ramakrishnan
+
 ## 1. Contribution Guidelines.
 
 This Working Group accepts contributions via pull requests. The following section outlines the process for merging contributions to the specification
