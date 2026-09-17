@@ -8,7 +8,7 @@ Because this work includes the creation of strict charters and limitations on fu
 
 ## Phase 1 — Governance Bootstrapping
 
-The first, and most important step, is to create a charter and assign members to the top level organizational unit: the Steering Committee. This must be done through a consensus of the most active CCC participants from financial service institutions, with an opportunity for input from the entire community.
+The first, and most important step, is to create a charter and assign members to the top level organizational unit: the Technical Steering Committee (TSC). This must be done through a consensus of the most active CCC participants from financial service institutions, with an opportunity for input from the entire community.
 
 Process:
 
@@ -18,7 +18,7 @@ Process:
 1. A consensus was achieved in an off-calendar call at the end of the feedback period
 1. Additional fixes were incorporated for polish prior to merging
 
-## Phase 2 — Inaugural Steering Committee Appointments
+## Phase 2 — Inaugural Technical Steering Committee Appointments
 
 As the official election process inherently depends on an extant committee, the initial bootstrapping of the committee requires an appointing authority.
 
@@ -31,12 +31,12 @@ Process:
 
 ## Phase 3 — Organizational Bootstrapping
 
-The Steering Committee (SC) will self-organize to define the community structure, document the processes surrounding it, and launch the inaugural community groups. The goal is to have this proccess quickly completed so that the subsequent groups are free to begin their work.
+The Technical Steering Committee (TSC) will self-organize to define the community structure, document the processes surrounding it, and launch the inaugural community groups. The goal is to have this proccess quickly completed so that the subsequent groups are free to begin their work.
 
-Following the procedure set out in the SC charter:
+Following the procedure set out in the TSC charter:
 
-1. The SC will determine their exact scope of work and set a meeting cadence for the bootstrapping phase.
-1. The SC will define and document the intended community structure, including all group types, member roles, and accountability structure.
-1. The SC will set the charters for any inaugural groups, then appoint leadership as needed.
-1. The SC will operate at a heightened awareness for the next two months, seeking to iterate on the community organizational structure and/or support community groups as needed.
+1. The TSC will determine their exact scope of work and set a meeting cadence for the bootstrapping phase.
+1. The TSC will define and document the intended community structure, including all group types, member roles, and accountability structure.
+1. The TSC will set the charters for any inaugural groups, then appoint leadership as needed.
+1. The TSC will operate at a heightened awareness for the next two months, seeking to iterate on the community organizational structure and/or support community groups as needed.
 1. Once established, community groups should self-organize according to their respective charters.
