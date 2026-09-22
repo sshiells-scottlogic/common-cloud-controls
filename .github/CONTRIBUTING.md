@@ -10,10 +10,10 @@ The TSC may adopt or modify roles, so long as the roles are documented in this f
 
 | Role                               | Responsibilities                                                                   | Requirements                                                  | Defined by                                                           |
 | ---------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------------------------- |
-| Contributor                        | Contribute code, documentation, or other technical artifacts to the project        | Open to anyone                                               | Community participation                                              |
-| Maintainer                         | Review and merge contributions, and help maintain project assets and tooling       | Promoted from Contributor by a majority approval of the TSC  | [CODEOWNERS] entry for specific files or directories                 |
-| WG Lead                            | Set direction and priorities for a working group (WG)                              | Demonstrated responsibility and excellent technical judgement | [CODEOWNERS] entry for all files or directories relating to the [WG] |
 | Technical Steering Committee (TSC) | Govern the project: technical oversight, strategic direction, roadmap, and process | Appointed in line with the [TSC Charter]                     | [TSC Charter]                                                        |
+| WG Lead                            | Set direction and priorities for a working group (WG)                              | Demonstrated responsibility and excellent technical judgement | [CODEOWNERS] entry for all files or directories relating to the [WG] |
+| Maintainer                         | Review and merge contributions, and help maintain project assets and tooling       | Promoted from Contributor by a majority approval of the TSC  | [CODEOWNERS] entry for specific files or directories                 |
+| Contributor                        | Contribute code, documentation, or other technical artifacts to the project        | Open to anyone                                               | Community participation                                              |
 
 Anyone attending a CCC meeting, event, or contributing in any way is expected to follow the [Linux Foundation Code of Conduct]. Established community members of **all roles** are expected to demonstrate technical and/or writing ability in their contributions, adherence to the principles of the project, and familiarity with project organization (roles, policies, procedures, conventions, etc).
 
@@ -38,41 +38,6 @@ The current members of the TSC are:
 
 The current FINOS point of contact for the project is @robmoffat (see [finos-poc.md](/docs/governance/finos-poc.md)).
 
-### Maintainers
-
-Maintainers are Contributors who have earned the ability to commit (merge) changes to the project's repositories (see the [Maintainer](#maintainer) role). The current Maintainers are:
-
-<!-- Add maintainers here -->
-
-### Contributor
-
-A Contributor is anyone in the technical community who contributes code, documentation, or other technical artifacts to the project. Contributing is open to anyone who abides by the project's policies and the [Linux Foundation Code of Conduct]; no prior appointment is required. New contributors should be welcomed to the community, helped with the pull request (PR) workflow, and directed to relevant documentation and communication channels.
-
-**Definition of contributions.** Contributions are meaningful engagements that advance the goals of the community. These include, but are not limited to:
-
-- Submission of impactful pull requests that are subsequently merged into the project's repositories.
-- Additive participation in discussions on issues, pull requests, or community forums like mailing lists, Slack channels, or meetings.
-- Contribution to design proposals or reviews.
-- Assistance given in community management and organization, such as event planning or managing community tools and resources.
-
-### Maintainer
-
-Maintainers are Contributors who have earned the ability to commit (merge) changes to the project's repositories. In addition to reviewing pull requests, they help maintain the project's community assets and tooling within their scope.
-
-Approval of a contribution is focused on holistic acceptance, including backwards / forwards compatibility, adhering to all conventions, subtle performance and correctness issues, interactions with other parts of the system, and so forth.
-
-**Defined by:** [CODEOWNERS] entry or GitHub Team for a specific scope.
-
-**Becoming a Maintainer.** A Contributor becomes a Maintainer by a **majority approval of the TSC**. Once approved, the Maintainer is added to the [CODEOWNERS] file (or the appropriate GitHub Team) for their scope. A Maintainer may be removed by a **majority approval of the TSC**.
-
-**Responsibilities and privileges:**
-
-- Provide thorough and practical reviews of contributions from other members.
-- May approve and merge PRs from other members, or block PRs with requests for changes.
-- Help maintain the project's community assets — repositories, documentation, and related resources — within their scope.
-- Maintain project tooling and build/test infrastructure within their scope.
-- Ensure contributions meet the project's conventions and quality standards.
-
 ### WG Lead
 
 WG Leads set direction and priorities for a working group, demonstrating responsibility and excellent technical judgement for the subproject.
@@ -93,6 +58,39 @@ WG Leads set direction and priorities for a working group, demonstrating respons
 - Steward the WG's community assets and tooling.
 - Present the [WG] status and progress to the rest of the community.
 - Adhere to the general responsibilities of a _Maintainer_.
+
+### Maintainer
+
+Maintainers are Contributors who have earned the ability to commit (merge) changes to the project's repositories. In addition to reviewing pull requests, they help maintain the project's community assets and tooling within their scope.
+
+Approval of a contribution is focused on holistic acceptance, including backwards / forwards compatibility, adhering to all conventions, subtle performance and correctness issues, interactions with other parts of the system, and so forth.
+
+**Defined by:** [CODEOWNERS] entry or GitHub Team for a specific scope.
+
+**Becoming a Maintainer.** A Contributor becomes a Maintainer by a **majority approval of the TSC**. Once approved, the Maintainer is added to the [CODEOWNERS] file (or the appropriate GitHub Team) for their scope. A Maintainer may be removed by a **majority approval of the TSC**.
+
+**Responsibilities and privileges:**
+
+- Provide thorough and practical reviews of contributions from other members.
+- May approve and merge PRs from other members, or block PRs with requests for changes.
+- Help maintain the project's community assets — repositories, documentation, and related resources — within their scope.
+- Maintain project tooling and build/test infrastructure within their scope.
+- Ensure contributions meet the project's conventions and quality standards.
+
+The current Maintainers are:
+
+<!-- Add maintainers here -->
+
+### Contributor
+
+A Contributor is anyone in the technical community who contributes code, documentation, or other technical artifacts to the project. Contributing is open to anyone who abides by the project's policies and the [Linux Foundation Code of Conduct]; no prior appointment is required. New contributors should be welcomed to the community, helped with the pull request (PR) workflow, and directed to relevant documentation and communication channels.
+
+**Definition of contributions.** Contributions are meaningful engagements that advance the goals of the community. These include, but are not limited to:
+
+- Submission of impactful pull requests that are subsequently merged into the project's repositories.
+- Additive participation in discussions on issues, pull requests, or community forums like mailing lists, Slack channels, or meetings.
+- Contribution to design proposals or reviews.
+- Assistance given in community management and organization, such as event planning or managing community tools and resources.
 
 ### Inactive Members
 
