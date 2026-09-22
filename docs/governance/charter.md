@@ -52,8 +52,8 @@ Charter.
 6. The TSC may elect a TSC Chair, who will preside over meetings of the TSC and
    will serve until their resignation or replacement by the TSC. The TSC Chair,
    or any other TSC member so designated by the TSC, will serve as the primary
-   communication contact between the Project and Open Source Security Foundation
-   (OpenSSF), a directed fund of The Linux Foundation.
+   communication contact between the Project and the Fintech Open Source
+   Foundation (FINOS), a directed fund of The Linux Foundation.
 7. Responsibilities: The TSC will be responsible for all aspects of oversight
    relating to the Project, which may include:
    1. coordinating the technical direction of the Project;

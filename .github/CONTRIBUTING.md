@@ -19,7 +19,7 @@ Anyone attending a CCC meeting, event, or contributing in any way is expected to
 
 ### Technical Steering Committee
 
-The Technical Steering Committee (TSC) is the project's governing body, responsible for technical oversight, strategic direction, the roadmap, and governance. How the TSC makes decisions, and how members join and leave it, is set out in the [TSC governance process].
+The Technical Steering Committee (TSC) is the project's governing body, responsible for technical oversight, strategic direction, the roadmap, and governance. How the TSC makes decisions, and how members join and leave it, is set out in the [TSC governance process]. Membership of the TSC is determined by that process, with members serving in their own right rather than by virtue of holding any other role; this is the alternative approach to determining the committee's voting members that the TSC has adopted under section 2 of the [Technical Charter].
 
 The current members of the TSC are (affiliations shown for reference only):
 
@@ -186,3 +186,4 @@ o Pull requests may be closed by a Maintainer if the decision is made that it is
 [roadmap]: /docs/governance/steering/process.md#roadmap-planning
 [WG]: /docs/governance/community-structure.md#working-groups
 [TSC governance process]: /docs/governance/steering/process.md
+[Technical Charter]: /docs/governance/charter.md
