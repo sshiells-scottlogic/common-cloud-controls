@@ -1,7 +1,5 @@
 # Technical Charter (the "Charter") for Common Cloud Controls
 
-Adopted: ___________
-
 This Charter sets forth the responsibilities and procedures for technical
 contribution to, and oversight of, the Common Cloud Controls open source
 project, which has been established as Common Cloud Controls a Series of LF
