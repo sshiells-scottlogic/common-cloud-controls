@@ -37,7 +37,7 @@ Members are expected to participate actively — through pull requests, reviews,
 
 A member who has made **no meaningful contribution to the project for six (6) months** automatically qualifies for removal at the next periodic membership cleanup. The TSC reviews membership on a regular cadence — at least once per year — and removes members who meet this criterion. This is an automatic housekeeping step, not a judgement of the individual; it keeps the committee's active membership accurate.
 
-A member who leaves the committee for any reason — including automatic drop-off — may **reapply after one (1) year** through the [Joining the TSC](#joining-the-tsc) process above.
+A member who leaves the committee for any reason — including automatic drop-off — may reapply at any time through the [Joining the TSC](#joining-the-tsc) process above.
 
 ### Removal
 
