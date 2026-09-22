@@ -75,9 +75,9 @@ Participants of FINOS standards projects should follow the FINOS Code of Conduct
 
 ### FINOS CCC Technical Steering Committee (TSC)
 
-The CCC Technical Steering Committee (TSC) is the governing body of the CCC project, providing technical oversight and strategic direction, and defining the project values and structure. [Documented here](docs/governance/steering/charter.md).
+The CCC Technical Steering Committee (TSC) is the governing body of the CCC project, providing technical oversight and strategic direction, and defining the project values and structure. How it operates is described in the [TSC governance process](docs/governance/steering/process.md).
 
-The TSC voting members are the Project's Maintainers, listed in the [CONTRIBUTING file](.github/CONTRIBUTING.md). They hold their seats as individuals, on their own merit — not as representatives of any employer or sponsor. The current members are (affiliations shown for reference only):
+The TSC's members are listed in the [CONTRIBUTING file](.github/CONTRIBUTING.md). They hold their seats as individuals, on their own merit — not as representatives of any employer or sponsor. The current members are (affiliations shown for reference only):
 
 - Mohamed Alsaloom — Citi
 - Michael Lysaght — Citi

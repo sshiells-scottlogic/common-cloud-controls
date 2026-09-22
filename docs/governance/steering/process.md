@@ -1,14 +1,10 @@
-# Common Cloud Controls Technical Steering Committee Charter
+# Common Cloud Controls Technical Steering Committee — Governance Process
 
-This document outlines the mission, scope, and responsibilities of the Common Cloud Controls (CCC) Technical Steering Committee (TSC).
+This document describes how the Common Cloud Controls (CCC) Technical Steering Committee (TSC) operates: how decisions are made, how members join and leave the committee, and how the committee is run.
 
-## Mission
+## Mission and Responsibilities
 
-The CCC Technical Steering Committee (TSC) is the governing body of the CCC project. It provides technical oversight and strategic direction — defining the project's objectives, owning its governance and process, and maintaining the project roadmap. The TSC delegates technical delivery to the working groups and their leads.
-
-The TSC holds a public community call no less than once per quarter to update stakeholders on all CCC efforts.
-
-## Responsibilities
+The CCC Technical Steering Committee (TSC) is the governing body of the CCC project. It provides technical oversight and strategic direction — defining the project's objectives, owning its governance and process, and maintaining the project roadmap. The TSC delegates technical delivery to the working groups and their leads; it does not make technical decisions itself.
 
 The TSC is directly responsible for:
 
@@ -17,33 +13,35 @@ The TSC is directly responsible for:
 - **Roadmap —** owning the project [roadmap](#roadmap-planning) and prioritising the direction of the project.
 - **Pull requests —** reviewing and voting on governance decisions raised as pull requests (see [Voting](#voting)).
 
-The TSC delegates the following to the working groups and their leads; it does not own them directly:
+The following are delegated to the working groups and their leads; the TSC does not own them directly:
 
 - Releases and the release process.
 - Community assets, such as repositories, infrastructure, websites, and social-media accounts.
 - Project tooling and build/test infrastructure.
 
-Responsibilities not explicitly delegated to another group through its charter reside with the TSC. The TSC does not make technical decisions itself; those are delegated to the working groups.
+Responsibilities not explicitly delegated to another group through its charter reside with the TSC. The TSC holds a public community call no less than once per quarter to update stakeholders on all CCC efforts.
 
 ## Membership
 
-The TSC voting members are the Project's Maintainers. The current Maintainers — and therefore the current TSC voting members — are set forth in the [CONTRIBUTING file](/.github/CONTRIBUTING.md), and are also listed for reference in the project [README.md](/README.md).
+The TSC is composed of individual members who serve on their own merit, not as representatives of any employer or sponsor. The current members are listed in the [CONTRIBUTING file](/.github/CONTRIBUTING.md), and are also shown for reference in the project [README.md](/README.md).
 
-The project roles (Contributor and Maintainer) are defined in the [CONTRIBUTING file](/.github/CONTRIBUTING.md). The TSC may adopt or modify roles, or choose an alternative approach for determining its voting members, provided any such change is documented in the CONTRIBUTING file.
+Members are expected to help govern the project: set direction, vote on committee business, and hold the responsibilities described throughout this document.
 
-### Becoming a Maintainer
+### Joining the TSC
 
-Maintainers are Contributors who have earned the ability to commit (merge) changes to the project's repositories. A Contributor becomes a Maintainer — and thereby a TSC voting member — by a **majority approval of the TSC**.
+Anyone active in the CCC community may seek a seat on the TSC. A candidate is put forward by opening a pull request that adds them to the member list in the [CONTRIBUTING file](/.github/CONTRIBUTING.md), together with a short summary of their contributions to the project. The candidate is admitted by a **majority approval of the TSC**, recorded through the [Voting](#voting) process. Once approved, the pull request adding them to the member list is merged.
 
-### Minimum participation
+### Participation and automatic drop-off
 
-Members are expected to participate actively in the committee's work. As a guideline, a member should attend at least half of TSC meetings over any rolling six-month period; votes cast on decision-log pull requests also count towards participation.
+Members are expected to participate actively — through pull requests, reviews, attending TSC meetings, and voting on [decision-log](#decision-log) pull requests.
 
-If a member's participation falls below this level, the [Chair](#chair-and-vice-chair) discusses it with them to determine whether they remain best placed to hold the seat.
+A member who has made **no meaningful contribution to the project for six (6) months** automatically qualifies for removal at the next periodic membership cleanup. The TSC reviews membership on a regular cadence — at least once per year — and removes members who meet this criterion. This is an automatic housekeeping step, not a judgement of the individual; it keeps the committee's active membership accurate.
+
+A member who leaves the committee for any reason — including automatic drop-off — may **reapply after one (1) year** through the [Joining the TSC](#joining-the-tsc) process above.
 
 ### Removal
 
-A member may remove themselves or be removed through the following processes.
+Aside from the automatic drop-off above, a member may leave or be removed through the following processes.
 
 #### Resignation
 
@@ -51,7 +49,7 @@ If a member chooses not to continue in their role, for whatever self-elected rea
 
 #### No confidence
 
-A Maintainer may be removed — and thereby lose their TSC vote — by a **majority approval of the TSC**.
+A member may be removed by a **majority approval of the TSC**.
 
 The call for a vote of no confidence will happen in a public TSC meeting and must be documented as a GitHub issue in the repository. It must be made by a current member and seconded by another current member. The member who calls for the vote must include on the issue a statement providing context on the reason for the vote.
 
@@ -60,10 +58,6 @@ Once a vote of no confidence has been called, the committee will notify the comm
 If the vote of no confidence is passed, the member in question is immediately removed from the committee.
 
 ## Roles
-
-### Members
-
-The TSC voting members are the Project's Maintainers (see [Membership](#membership)). They set project direction, vote on committee business, and hold the responsibilities defined throughout this charter.
 
 ### Chair and Vice Chair
 
@@ -82,7 +76,7 @@ Members self-nominate for Chair and Vice Chair. Where there is more than one nom
 
 #### Officer term
 
-Each Officer term runs for a maximum of two years, and is independent of the person's underlying Maintainer status — a Chair or Vice Chair may be re-nominated for another Officer term while continuing to serve on the committee, subject to any consecutive-term limit the committee agrees.
+Each Officer term runs for a maximum of two years, and is independent of the person's underlying membership — a Chair or Vice Chair may be re-nominated for another Officer term while continuing to serve on the committee, subject to any consecutive-term limit the committee agrees.
 
 An Officer must remain a sitting committee member throughout their Officer term. If they leave the committee for any reason, their Officer term ends immediately and the vacancy process below applies.
 
@@ -109,7 +103,7 @@ The [Chair](#chair-and-vice-chair) closes the vote — merging the pull request 
 
 Unless otherwise specified by a process, a vote passes by a **_majority of participating members_** — meaning members who record an approval or rejection on the pull request. This keeps the process workable in practice: a stricter, participation-independent threshold may appear more rigorous, but one that is seldom met yields the same practical outcome as low engagement — decisions fail to progress.
 
-> This general threshold does not override a process that specifies its own, higher bar — such as a [vote of no confidence](#no-confidence) or a [change to this charter](#changes).
+> This general threshold does not override a process that specifies its own, higher bar — such as a [vote of no confidence](#no-confidence) or a [change to this document](#changes).
 
 ### Abstention
 
@@ -139,7 +133,7 @@ Given that the committee's membership may include representatives of competing o
 
 ### Quorum
 
-Quorum requires at least half of the TSC voting members to be present. The committee may continue to meet if quorum is not met, but may not take decisions at that meeting. Formal decisions are, in any case, taken on decision-log pull requests as described under [Voting](#voting).
+Quorum requires at least half of the TSC members to be present. The committee may continue to meet if quorum is not met, but may not take decisions at that meeting. Formal decisions are, in any case, taken on decision-log pull requests as described under [Voting](#voting).
 
 ## Inclusive Leadership Training
 
@@ -151,7 +145,7 @@ Members may propose a change to this document through the following process:
 
 - Post a pull request to this repository describing the change.
 - Call a public vote for the nearest acceptable business day four (4) weeks after initial introduction of the change. A vote may be scheduled earlier if all members consent.
-- The change is accepted if two-thirds of the TSC voting members vote in favor.
+- The change is accepted if two-thirds of the TSC members vote in favor.
 - The pull request is merged or closed.
 
 ## Attribution

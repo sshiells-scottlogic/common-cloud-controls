@@ -1,10 +1,10 @@
 # Technical Steering Committee Decision Log
 
-This is the running record of Technical Steering Committee decisions, maintained under the [Decision Log](charter.md#decision-log) section of the Technical Steering Committee Charter.
+This is the running record of Technical Steering Committee decisions, maintained under the [Decision Log](process.md#decision-log) section of the TSC governance process.
 
 ## How decisions are recorded
 
-Every Technical Steering Committee vote is held on a pull request against this file, as described under [Voting](charter.md#voting):
+Every Technical Steering Committee vote is held on a pull request against this file, as described under [Voting](process.md#voting):
 
 1. A member raises a pull request that describes the proposal and adds a row to the table below.
 2. Technical Steering Committee members vote by approving or rejecting the pull request.

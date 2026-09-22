@@ -4,13 +4,13 @@ This document provides the contribution policy for specifications and other docu
 
 ## Project Roles and the Technical Steering Committee
 
-The Common Cloud Controls project operates under the [Technical Steering Committee (TSC) Charter](/docs/governance/steering/charter.md). This section documents the project roles, the Technical Steering Committee, and the Maintainers, as required by that charter. Everyone is welcome to contribute through discussion, issues, and pull requests.
+The Common Cloud Controls project is governed by its Technical Steering Committee (TSC), whose operation is described in the [TSC governance process]. This section documents the project roles, the Technical Steering Committee, and the Maintainers. Everyone is welcome to contribute through discussion, issues, and pull requests.
 
 The TSC may adopt or modify roles, so long as the roles are documented in this file. Unless otherwise documented, the base roles are **Contributor** and **Maintainer**.
 
 | Role                               | Responsibilities                                                                   | Requirements                                                  | Defined by                                                           |
 | ---------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------------------------- |
-| Technical Steering Committee (TSC) | Govern the project: technical oversight, strategic direction, roadmap, and process | Appointed in line with the [TSC Charter]                     | [TSC Charter]                                                        |
+| Technical Steering Committee (TSC) | Govern the project: technical oversight, strategic direction, roadmap, and process | Appointed via the [TSC governance process]                   | [TSC governance process]                                             |
 | WG Lead                            | Set direction and priorities for a working group (WG)                              | Demonstrated responsibility and excellent technical judgement | [CODEOWNERS] entry for all files or directories relating to the [WG] |
 | Maintainer                         | Review and merge contributions, and help maintain project assets and tooling       | Promoted from Contributor by a majority approval of the TSC  | [CODEOWNERS] entry for specific files or directories                 |
 | Contributor                        | Contribute code, documentation, or other technical artifacts to the project        | Open to anyone                                               | Community participation                                              |
@@ -19,7 +19,7 @@ Anyone attending a CCC meeting, event, or contributing in any way is expected to
 
 ### Technical Steering Committee
 
-The Technical Steering Committee (TSC) is the project's governing body, responsible for technical oversight, strategic direction, the roadmap, and governance, as set out in the [TSC Charter]. TSC meetings are open to the public and may be conducted electronically, by teleconference, or in person.
+The Technical Steering Committee (TSC) is the project's governing body, responsible for technical oversight, strategic direction, the roadmap, and governance. How the TSC makes decisions, and how members join and leave it, is set out in the [TSC governance process].
 
 The current members of the TSC are (affiliations shown for reference only):
 
@@ -183,6 +183,6 @@ o Pull requests may be closed by a Maintainer if the decision is made that it is
 [Linux Foundation Code of Conduct]: https://events.linuxfoundation.org/about/code-of-conduct/
 [CODEOWNERS]: /.github/CODEOWNERS
 [community groups]: /docs/governance/community-structure.md
-[roadmap]: /docs/governance/steering/charter.md#roadmap-planning
+[roadmap]: /docs/governance/steering/process.md#roadmap-planning
 [WG]: /docs/governance/community-structure.md#working-groups
-[TSC Charter]: /docs/governance/steering/charter.md
+[TSC governance process]: /docs/governance/steering/process.md

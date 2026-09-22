@@ -12,9 +12,9 @@ The **Technical Steering Committee (TSC)** is the ultimate governance body of th
 
 While the [TSC] is made of experts in the field of cybersecurity, it is intended to be a facilitator and overseer of excellent decision-making, rather than a technical decision-maker itself.
 
-TSC membership is presented in the [README.md](/README.md) of the main CCC repo.
+TSC membership is listed in the [CONTRIBUTING file](/.github/CONTRIBUTING.md).
 
-Review the [Technical Steering Committee Charter] for more information.
+Review the [TSC governance process] for more information.
 
 ## Working Groups
 
@@ -37,5 +37,5 @@ Changes to the community structure can be proposed through pull requests. All ch
 ---
 
 [FINOS Code of Conduct]: https://www.finos.org/code-of-conduct
-[Technical Steering Committee Charter]: steering/charter.md
+[TSC governance process]: steering/process.md
 [TSC]: #steering-committee
