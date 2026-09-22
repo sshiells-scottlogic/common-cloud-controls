@@ -21,20 +21,20 @@ Anyone attending a CCC meeting, event, or contributing in any way is expected to
 
 The Technical Steering Committee (TSC) is the project's governing body, responsible for technical oversight, strategic direction, the roadmap, and governance, as set out in the [TSC Charter]. TSC meetings are open to the public and may be conducted electronically, by teleconference, or in person.
 
-The current members of the TSC are:
+The current members of the TSC are (affiliations shown for reference only):
 
-- Mohamed Alsaloom
-- Michael Lysaght
-- Dean Bryen
-- Leroy Abhikui
-- Dave Reeve
-- Stevie Shiells
-- Sonali Mendis
-- Aric Rosenbaum
-- Jenn Power
-- Ernani Cecon
-- Maxime Coquerel
-- Sankara Ramakrishnan
+- Mohamed Alsaloom — Citi
+- Michael Lysaght — Citi
+- Dean Bryen — LSEG
+- Leroy Abhikui — LSEG
+- Dave Reeve — Morgan Stanley
+- Stevie Shiells — Scott Logic
+- Sonali Mendis — Scott Logic
+- Aric Rosenbaum — Red Hat
+- Jenn Power — Red Hat
+- Ernani Cecon — RBC
+- Maxime Coquerel — RBC
+- Sankara Ramakrishnan — BlackRock
 
 The current FINOS point of contact for the project is @robmoffat (see [finos-poc.md](/docs/governance/finos-poc.md)).
 
