@@ -61,9 +61,9 @@ FINOS CCC communications are conducted through the <ccc-participants@lists.finos
 
 ### FINOS CSLA Needed to Participate in CCC
 
-All FINOS CCC participants are required to sign a FINOS [Community Specification Contributor License Agreement](https://github.com/finos/standards-project-blueprint/blob/main/governance-documents/Getting%20Started.md#best-practices) before joining project calls and collaborating in working groups.
+All FINOS CCC participants are required to sign a FINOS [Community Specification Contributor License Agreement](https://github.com/finos/standards-project-blueprint/blob/main/CONTRIBUTING.md#5best-practices) before joining project calls and collaborating in working groups.
 
-Raising a Pull Request to include your information on [participants.yaml](participants.yaml) will automatically take you through the Linux Foundation EasyCLA process for signing the FINOS [CSCLA](https://github.com/finos/standards-project-blueprint/blob/main/governance-documents/Getting%20Started.md#best-practices).
+Raising a Pull Request to include your information on [participants.yaml](participants.yaml) will automatically take you through the Linux Foundation EasyCLA process for signing the FINOS [CSCLA](https://github.com/finos/standards-project-blueprint/blob/main/CONTRIBUTING.md#5best-practices).
 
 Email <help@finos.org> if you require further help.
 
@@ -73,21 +73,24 @@ Participants of FINOS standards projects should follow the FINOS Code of Conduct
 
 ## Governance
 
-### FINOS CCC Steering Committee
+### FINOS CCC Technical Steering Committee (TSC)
 
-The CCC Steering Committee is the governing body of the CCC project, providing decision-making and oversight pertaining to the CCC project bylaws, sub-organizations, and financial planning. The Steering Committee also defines the project values and structure. [Documented here](docs/governance/steering/charter.md).
+The CCC Technical Steering Committee (TSC) is the governing body of the CCC project, providing technical oversight and strategic direction, and defining the project values and structure. How it operates is described in the [TSC governance process](docs/governance/steering/process.md).
 
-Each organizational seat has a **Primary** (Cloud Lead) and **Alternate** (Cyber Security Lead) representative; the Alternate participates when the Primary is unavailable.
+The TSC's members are listed in the [CONTRIBUTING file](.github/CONTRIBUTING.md). They hold their seats as individuals, on their own merit — not as representatives of any employer or sponsor. The current members are (affiliations shown for reference only):
 
-| Representing   | Cloud Lead (Primary) | Cyber Security Lead (Alternate) |
-|----------------|----------------------|---------------------------------|
-| Citi           | Alsaloom, Mohamed    | Michael Lysaght                 |
-| LSEG           | Dean Bryen           | Leroy Abhikui                   |
-| Morgan Stanley | Dave Reeve           | -                               |
-| ScottLogic     | Stevie Shiells       | Sonali Mendis                   |
-| Red Hat        | Aric Rosenbaum       | Jenn Power                      |
-| RBC            | Ernani Cecon         | Maxime Coquerel                 |
-| BlackRock      | -                    | Sankara Ramakrishnan            |
+- Mohamed Alsaloom — Citi
+- Michael Lysaght — Citi
+- Dean Bryen — LSEG
+- Leroy Abhikui — LSEG
+- Dave Reeve — Morgan Stanley
+- Stevie Shiells — Scott Logic
+- Sonali Mendis — Scott Logic
+- Aric Rosenbaum — Red Hat
+- Jenn Power — Red Hat
+- Ernani Cecon — RBC
+- Maxime Coquerel — RBC
+- Sankara Ramakrishnan — BlackRock
 
 @robmoffat is the current [FINOS Point of Contact](docs/governance/finos-poc.md) for the CCC project.
 
